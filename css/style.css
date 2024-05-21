@@ -1,0 +1,134 @@
+header {
+    border-bottom: 1px solid #000;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+body product{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+
+
+.product img {
+    width: 300px;
+    height: 300px;;
+}
+
+.product h2 {
+    margin-top: 10px;
+
+}
+
+body p{
+    color: white;
+}
+body h1 {
+    color: #665C5B;
+    text-align: center;
+}
+.product p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    width: small;
+    height: small;
+}
+
+.product button {
+    background-color: #665C5B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+.product button:hover {
+    background-color: #5c4c4a;
+}
+
+header {
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.product:nth-child(1) {
+    background-color: #FAB346;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product:nth-child(2) {
+    background-color: #FAB346;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product:nth-child(3) {
+    background-color: #FAB346;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product:nth-child(4) {
+    background-color: #FAB346;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product:nth-child(5) {
+    background-color:#FAB346;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product:nth-child(6) {
+    background-color: #FAB346;
+    padding: 10px;
+    border-radius: 5px;
+}
+.popup {
+              display: none;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              background-color: white;
+              padding: 20px;
+              border: 1px solid black;
+              box-shadow: 0px 0px 10px 1px black;
+          }
+    
+.popup:target {
+    
+              display: block;
+          }
